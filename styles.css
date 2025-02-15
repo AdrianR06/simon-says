@@ -5,41 +5,37 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #f0f0f0;
     margin: 0;
 }
 
 .container{
     text-align: center;
-    padding: 40px;
-    border-radius: 10px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-    max-width: 400px;
-    width: 100%;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
 }
+
 /* Titulos y textos */
 
 h1{
     font-size: 2em;
-    margin-bottom: 15px;
+    text-align: center;
 }
 
 p{
     font-size: 1.2em;
+    text-align: center;
 }
 
 /* Input y botones */
 input, button{
-    padding: 10px;
-    font-size: 1em;
-    width: 80%;
     max-width: 250px;
     margin: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    font-size: 1em;
 }
 
 button {
@@ -104,7 +100,7 @@ button:hover {
     }
 
     .container{
-        padding: 20px;
+        padding: 10px;
     }
 
     h1{
@@ -117,7 +113,7 @@ button:hover {
 
     input, button {
         width: 100%;
-        font-size: 0.0em;
+        font-size: 0.9em;
     }
 }
 
