@@ -17,10 +17,10 @@ const scoreBoard = document.getElementById('scoreBoard');
 
 // Sonido
 const sonidos = {
-    red: new Audio('sonidocolor.mp3'),
-    green: new Audio('sonidocolor.mp3'),
-    blue: new Audio('sonidocolor.mp3'),
-    yellow: new Audio('sonidocolor.mp3')
+    red: new Audio('red.mp3'),
+    green: new Audio('green.mp3'),
+    blue: new Audio('blue.mp3'),
+    yellow: new Audio('yellow.mp3')
 };
 
 // Event Listeners 
